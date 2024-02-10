@@ -537,8 +537,6 @@ function App() {
   <div className="d-flex flex-column flex-sm-row flex-lg-row gap-5">
   <div className="card2">
     <img src="cred-title.jpg" className="card-img-top" alt="..."/>
-    <div className="card-body">
-    </div>
   </div>
 </div> 
            </div>
@@ -549,13 +547,9 @@ function App() {
   <div className="d-flex flex-column flex-sm-row flex-lg-row gap-5">
   <div className="card2">
     <img src="cultfit.png" className="card-img-top" alt="..."/>
-    <div className="card-body">
-    </div>
   </div>
   <div className="card2 top1">
     <img src="scapia3.png" className="card-img-top" alt="..."/>
-    <div className="card-body">
-    </div>
   </div>
 </div> 
            </div>
