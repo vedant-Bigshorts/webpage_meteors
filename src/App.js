@@ -536,7 +536,7 @@ function App() {
             <div className="card-group">
   <div className="d-flex flex-column flex-sm-row flex-lg-row gap-5">
   <div className="card2">
-    <img src="CRED-TITLE.JPG" className="card-img-top" alt="..."/>
+    <img src="cred-title.jpg" className="card-img-top" alt="..."/>
     <div className="card-body">
     </div>
   </div>
@@ -561,7 +561,7 @@ function App() {
            </div>
            </div>
       </section>
-      <section id="contact" className="contact bg5 " style={{backgroundColor:"pink"}}>
+      <section id="contact" className="contact bg5">
         <div className="cont center cont1 mx-5">
           <h1 className="signup title5">CONTACT</h1>
           <div className="justify-content-center  v">
