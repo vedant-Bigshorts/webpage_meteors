@@ -561,7 +561,7 @@ function App() {
            </div>
            </div>
       </section>
-      <section id="contact" className="contact bg5 ">
+      <section id="contact" className="contact bg5 " style={{backgroundColor:"pink"}}>
         <div className="cont center cont1 mx-5">
           <h1 className="signup title5">CONTACT</h1>
           <div className="justify-content-center  v">

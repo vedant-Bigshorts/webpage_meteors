@@ -224,15 +224,9 @@ width:50px;
   padding-top:0rem;
 }
 .bg5{
-  background-image: url("/Users/vedantsahai/Documents/yadnesh_website/yadnesh_website/public/website-background-templates.png");
   color:white;
+  background-color: #1e1c1c;
 }
-/* #fixtures{
-  background-image: url("/Users/vedantsahai/Documents/yadnesh_website/yadnesh_website/public/website-background-templates.png")
-}
-.im{
-  background-image: url("/Users/vedantsahai/Documents/yadnesh_website/yadnesh_website/public/website-background-templates.png")
-} */
 
 .footer{
   padding-top:3rem;
