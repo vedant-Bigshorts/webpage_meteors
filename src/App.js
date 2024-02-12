@@ -616,7 +616,7 @@ function App() {
 </div>       
           <h1 className="sochead">Social Media</h1>
           <div className="hor">
-            <a href="https://www.instagram.com/mumbaimeteors/"><img alt="" src="instagram.png"  style={{height:"4vw"}}></img></a>
+            <a href="https://www.instagram.com/mumbaimeteors/"><img alt="" src="instagram.png"  style={{height:"4vw",paddingRight:"0.8vw"}}></img></a>
             <a href="https://www.facebook.com/mumbaimeteors/"><img alt="" src="metaf.png" style={{height:"4vw"}}></img></a>
             <a href="https://twitter.com/mumbai_meteors?lang=en"><img alt="" src="xlogof.png"  style={{height:"4vw"}}></img></a>
             <a href="https://www.youtube.com/@PrimeVolleyballLeague"><img alt="" src="youtube11f.png"  style={{height:"6vw"}}></img></a>
