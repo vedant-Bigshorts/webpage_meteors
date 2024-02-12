@@ -576,7 +576,7 @@ function App() {
     <img src="cultfitf.png" className="card-img-top" alt="..."/>
   </div>
   <div className="card2 top1">
-    <img src="scapia3.png" className="card-img-top" alt="..."/>
+    <img src="scapiaf.png" className="card-img-top" alt="..."/>
   </div>
 </div> 
            </div>
