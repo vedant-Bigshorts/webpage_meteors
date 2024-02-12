@@ -50,7 +50,7 @@ function App() {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#fixtures">
-                    Events
+                    Schedule 2023
                   </a>
                 </li>
                 <li className="nav-item">
@@ -64,17 +64,13 @@ function App() {
                   </a>
                 </li>
               </ul>
-              <form className="d-flex" role="search">
-                <input
-                  className="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button className="btn btn-outline-warning" type="submit">
-                  Search
-                </button>
-              </form>
+              <div className="hor11">
+            <a href="https://www.instagram.com/mumbaimeteors/"><img alt="" src="instagram.png"  style={{height:"3vw",paddingRight:"0.8vw"}}></img></a>
+            <a href="https://www.facebook.com/mumbaimeteors/"><img alt="" src="metaf.png" style={{height:"3vw"}}></img></a>
+            <a href="https://twitter.com/mumbai_meteors?lang=en"><img alt="" src="xlogof.png"  style={{height:"3vw"}}></img></a>
+            <a href="https://www.youtube.com/@PrimeVolleyballLeague"><img alt="" src="youtube11f.png"  style={{height:"5vw"}}></img></a>
+            
+          </div>
             </div>
           </div>
         </nav>
@@ -90,8 +86,6 @@ function App() {
   {/* <iframe src="https://www.youtube.com/embed/AVFTGScoiHY?autoplay=1" frameborder="0" allow="autoplay" allowfullscreen style={{objectFit:"cover",width:"100vw",height:"100vh"}}></iframe> */}
   <div className="card-img-overlay  center22">
     <h1 className="card-text  anim title1 center23" style={{color:"orange",letterSpacing:"1vw"}}>MUMBAI METEORS</h1>
-     <p className="card-text center23 textcol " style={{color:"bisque"}}>
-    Team owned by Meteor Sports Ventures established in 2022.The Meteors are soaring high and ready to take flight, aiming for nothing less than championship glory.So watch out for the blue and yellow storm – the Mumbai Meteors are here to leave their mark on the PVL!</p> 
   </div>
 </div>
       </section>
@@ -424,6 +418,9 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="banner">
+        <img src="banner.jpg" alt="" style={{width:"100%"}}></img>
+      </section>
       <section id="fixtures" className="center1" style={{backgroundColor:"white"}}>
       <div className="card text-bg-dark1 introCard im" style={{ width: "100%", height: "100%",backgroundColor:"white" }}>
   {/* <img
@@ -440,7 +437,7 @@ function App() {
     {/* <p className="card-text">
     </p>
   </div> */} 
-  <h1 className="titlev" style={{color:"black"}}>EVENTS</h1>
+  <h1 className="titlev" style={{color:"black"}}>Schedule 2023</h1>
 </div>
 <div className="d-flex ">
           <div className="card-group gridlay">
@@ -527,12 +524,42 @@ function App() {
           </div>
 </div>
       </section>
+      <section className="press" style={{backgroundColor:"white"}}>
+      <div className="d-flex flex-column  align-items-center pad2">
+          <h1 className="title2" style={{color:"black"}} >Press</h1>
+          <div className="d-flex ">
+          <div className="card-group gridlay">
+          <div class="card anim rounded" style={{width:"18rem"}}>
+  <img src="news11.png" class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-text">PhonePe Founders Acquire Mumbai Meteors to Join Prime Volleyball League Bandwagon.</h5>
+    <a href="https://www.financialexpress.com/business/brandwagon-phonepe-co-founders-pick-up-mumbai-franchise-in-prime-volleyball-league-2023-2706196/" class="btn btn-primary">Visit</a>
+  </div>
+</div>
+<div class="card anim rounded" style={{width:"18rem"}}>
+  <img src="PhonePe.jpg" class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-text">PhonePe founders form eighth Prime Volleyball League franchise</h5>
+    <a href="https://www.sportbusiness.com/news/phonepe-founders-form-eighth-prime-volleyball-league-franchise/" class="btn btn-primary">Visit</a>
+  </div>
+</div>
+<div class="card anim rounded" style={{width:"18rem"}}>
+  <img src="news33.png" class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">PhonePe founders join Prime Volleyball League, acquire Mumbai team</h5>
+    <a href="https://www.moneycontrol.com/news/business/announcements/phonepe-founders-join-prime-volleyball-league-acquire-mumbai-team-9301441.html" class="btn btn-primary">Visit</a>
+  </div>
+</div>
+          </div>
+          </div> 
+          </div> 
+      </section>
       <section id="sponsors" className="sponsors d-flex flex-column justify-contents-center align-items-center">
            <div className="mt-5">
             <h1 className="title5 mb-5">SPONSORS</h1>
            </div>
            <div className="d-flex flex-column justify-contents-center align-items-center pt-3">
-            <h1 className="title4">TITLE SPONSOR</h1>
+            <h1 className="title4" style={{fontSize:"2vw"}}>TITLE SPONSOR</h1>
             <div className="card-group">
   <div className="d-flex flex-column flex-sm-row flex-lg-row gap-5">
   <div className="card2">
@@ -542,7 +569,7 @@ function App() {
            </div>
            </div>
            <div className="d-flex flex-column justify-contents-center align-items-center mb-3">
-            <h1 className="title4 center">ASSOCIATE SPONSORS</h1>
+            <h1 className="title4 center" style={{fontSize:"2vw"}}>ASSOCIATE SPONSORS</h1>
             <div className="card-group">
   <div className="d-flex flex-column flex-sm-row flex-lg-row gap-5">
   <div className="card2">
