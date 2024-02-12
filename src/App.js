@@ -130,12 +130,11 @@ function App() {
     style={{ objectFit: "cover", width: "inherit", height: "inherit",opacity:"0.5" }}
   />
   <div className="card-img-overlay center22">
-    <h5 className="title1 center23" style={{color:"orange"}}>ABOUT</h5>
-    <p className="card-text  textcol center23" style={{color:"bisque"}}>
+    <h5 className="title1 center23" style={{color:"orange",textAlign:"left"}}>ABOUT</h5>
+    <p className="card-text  textcol " style={{color:"bisque",width:"40vw",fontSize:"1.5vw"}}>
      
     From the neon lights of Mumbai's skyline to the electrifying atmosphere of the volleyball court, the Mumbai Meteors is a young team, established in 2022, plays with the heart of a seasoned contender, weaving agility and speed into their gameplay.So, watch them closely, these rising stars with the dream of a golden championship trophy glittering in their eyes. The Meteors are here to stay, leaving their mark on the Indian volleyball landscape.</p>
-    <p className="card-text">
-    </p>
+    <a href="https://volleybox.net/mumbai-meteors-t21143/players"><button type="button" class="btn btn-warning" style={{width:"15vw",height:"5vw",paddingLeft:"2vw",fontSize:"1.5vw"}}>Read More</button></a>
   </div>
 </div>
       </section>
@@ -169,6 +168,9 @@ function App() {
             </div>
           </div>
         </div>
+      </section>
+      <section className="banner">
+        <img src="banner.jpg" alt="" style={{width:"100%"}}></img>
       </section>
       <section id="team" className="team d-flex flex-column justify-contents-center align-items-center "style={{height:"fit-content"}}>
         <div className="d-flex flex-column  align-items-center pad2">
@@ -418,9 +420,6 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="banner">
-        <img src="banner.jpg" alt="" style={{width:"100%"}}></img>
-      </section>
       <section id="fixtures" className="center1" style={{backgroundColor:"white"}}>
       <div className="card text-bg-dark1 introCard im" style={{ width: "100%", height: "100%",backgroundColor:"white" }}>
   {/* <img
@@ -437,7 +436,8 @@ function App() {
     {/* <p className="card-text">
     </p>
   </div> */} 
-  <h1 className="titlev" style={{color:"black"}}>Schedule 2023</h1>
+  <h1 className="titlev" style={{color:"black"}}>SCHEDULE</h1>
+  <h3>2024</h3>
 </div>
 <div className="d-flex ">
           <div className="card-group gridlay">
@@ -524,9 +524,9 @@ function App() {
           </div>
 </div>
       </section>
-      <section className="press" style={{backgroundColor:"white"}}>
+      <section className="press" style={{backgroundColor:"darkslateblue"}}>
       <div className="d-flex flex-column  align-items-center pad2">
-          <h1 className="title2" style={{color:"black"}} >Press</h1>
+          <h1 className="title2" style={{color:"bisque"}} >Press</h1>
           <div className="d-flex ">
           <div className="card-group gridlay">
           <div class="card anim rounded" style={{width:"18rem"}}>
@@ -616,7 +616,7 @@ function App() {
 </div>       
           <h1 className="sochead">Social Media</h1>
           <div className="hor">
-            <a href="https://www.instagram.com/mumbaimeteors/"><img alt="" src="instagram.png"  style={{height:"4vw",paddingRight:"0.8vw"}}></img></a>
+            <a href="https://www.instagram.com/mumbaimeteors/"><img alt="" src="instagram.png"  style={{height:"4vw",paddingRight:0.8}}></img></a>
             <a href="https://www.facebook.com/mumbaimeteors/"><img alt="" src="metaf.png" style={{height:"4vw"}}></img></a>
             <a href="https://twitter.com/mumbai_meteors?lang=en"><img alt="" src="xlogof.png"  style={{height:"4vw"}}></img></a>
             <a href="https://www.youtube.com/@PrimeVolleyballLeague"><img alt="" src="youtube11f.png"  style={{height:"6vw"}}></img></a>
