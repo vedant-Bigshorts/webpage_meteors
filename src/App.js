@@ -50,7 +50,12 @@ function App() {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#fixtures">
-                    Schedule 2023
+                    Schedule 2024
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#press">
+                    Press
                   </a>
                 </li>
                 <li className="nav-item">
@@ -524,7 +529,7 @@ function App() {
           </div>
 </div>
       </section>
-      <section className="press" style={{backgroundColor:"darkslateblue"}}>
+      <section id="press" className="press" style={{backgroundColor:"darkslateblue"}}>
       <div className="d-flex flex-column  align-items-center pad2">
           <h1 className="title2" style={{color:"bisque"}} >Press</h1>
           <div className="d-flex ">
@@ -600,7 +605,8 @@ function App() {
     <a href="#home"><li className="list-group-item bg7" style={{color:"white",paddingTop:"1.5rem"}}>Home</li></a>
     <a href="#about"><li className="list-group-item bg7" style={{color:"white",paddingTop:"1.5rem"}}>About</li></a>
     <a href="#team"><li className="list-group-item bg7" style={{color:"white",paddingTop:"1.5rem"}}>Team</li></a>
-    <a href="#fixtures"><li className="list-group-item bg7" style={{color:"white",paddingTop:"1.5rem"}}>Events</li></a>
+    <a href="#fixtures"><li className="list-group-item bg7" style={{color:"white",paddingTop:"1.5rem"}}>Schedule 2024</li></a>
+    <a href="#press"><li className="list-group-item bg7" style={{color:"white",paddingTop:"1.5rem"}}>Press</li></a>
     <a href="#sponsors"><li className="list-group-item bg7" style={{color:"white",paddingTop:"1.5rem"}}>Sponsors</li></a>
   </ul>
 </div>
