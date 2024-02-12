@@ -559,7 +559,7 @@ function App() {
             <h1 className="title5 mb-5">SPONSORS</h1>
            </div>
            <div className="d-flex flex-column justify-contents-center align-items-center pt-3">
-            <h1 className="title4" style={{fontSize:"2vw"}}>TITLE SPONSOR</h1>
+            <h1 className="title4" style={{fontSize:"2.5vw"}}>TITLE SPONSOR</h1>
             <div className="card-group">
   <div className="d-flex flex-column flex-sm-row flex-lg-row gap-5">
   <div className="card2">
@@ -569,11 +569,11 @@ function App() {
            </div>
            </div>
            <div className="d-flex flex-column justify-contents-center align-items-center mb-3">
-            <h1 className="title4 center" style={{fontSize:"2vw"}}>ASSOCIATE SPONSORS</h1>
+            <h1 className="title4 center" style={{fontSize:"2.5vw"}}>ASSOCIATE SPONSORS</h1>
             <div className="card-group">
   <div className="d-flex flex-column flex-sm-row flex-lg-row gap-5">
   <div className="card2">
-    <img src="cultfit.png" className="card-img-top" alt="..."/>
+    <img src="cultfitf.png" className="card-img-top" alt="..."/>
   </div>
   <div className="card2 top1">
     <img src="scapia3.png" className="card-img-top" alt="..."/>
