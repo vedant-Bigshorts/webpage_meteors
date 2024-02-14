@@ -606,7 +606,7 @@ function App() {
     <a href="#sponsors"><li className="list-group-item bg7" style={{color:"white",paddingTop:"1.5rem"}}>Sponsors</li></a>
   </ul>
 </div>
-<div className="card margincont bg7 top7" style={{width:"18rem"}}>
+{/* <div className="card margincont bg7 top7" style={{width:"18rem"}}>
   <div className="card-header" style={{color:"white"}}>
     <h5>Get in Touch</h5>
   </div>
@@ -614,7 +614,7 @@ function App() {
     <li className="list-group-item bg7" style={{color:"white",paddingTop:"3rem"}}>+91 891923547</li>
     <li className="list-group-item bg7" style={{color:"white",paddingTop:"3rem"}}>MumbaiMeteors@info.com</li>
   </ul>
-</div>
+</div> */}
 </div>       
           <h1 className="sochead">Social Media</h1>
           <div className="hor">
