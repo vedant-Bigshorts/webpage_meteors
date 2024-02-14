@@ -303,7 +303,8 @@ width:50px;
 }
 .title5{
 letter-spacing: 20px;
-color:white
+color:white;
+font-size: 5vw;
 }
 .vkv{
 color:#363636
@@ -398,9 +399,6 @@ align-items: center;
 .col{
   color:rgb(219, 217, 217);
 }
-.introCardImg{
-  opacity:0.7
-}
 .left1 {
   position: absolute;
   top: 0;
@@ -411,7 +409,7 @@ align-items: center;
   font-size:3vw;
 }
 .title1 {
-  font-size:5vw;
+  font-size:7vw;
   font-weight: 1000;
   color:rgb(31, 31, 147);
   letter-spacing: 5px;
@@ -426,7 +424,7 @@ align-items: center;
  background-color: darkslateblue;
 }
 .title2{
-  font-size:9vw;
+  font-size:7vw;
   font-weight: 1000;
   color:bisque;
   letter-spacing: 5px;

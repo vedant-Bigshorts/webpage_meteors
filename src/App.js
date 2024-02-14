@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <section className="nav1" >
-        <nav
-          className="navbar navbar-expand-lg bg-body-tertiary"
+        <nav id="navbar"
+          className="navbar navbar-expand-lg bg-body-tertiary fixed-top"
           data-bs-theme="dark"
         >
           <div className="container-fluid">
@@ -86,15 +86,11 @@ function App() {
     src="about9.jpg"
     className="card-img introCardImg"
     alt="..."
-    style={{ objectFit: "cover", width: "inherit", height: "inherit",opacity:"0.4" }}
+    style={{ objectFit: "cover", width: "inherit", height: "inherit" }}
   />
-  {/* <iframe src="https://www.youtube.com/embed/AVFTGScoiHY?autoplay=1" frameborder="0" allow="autoplay" allowfullscreen style={{objectFit:"cover",width:"100vw",height:"100vh"}}></iframe> */}
-  <div className="card-img-overlay  center22">
-    <h1 className="card-text  anim title1 center23" style={{color:"orange",letterSpacing:"1vw"}}>MUMBAI METEORS</h1>
-  </div>
 </div>
       </section>
-      <section className="ad">
+      {/* <section className="ad">
         <div className="card border-light ad1 mw">
           <div className="row g-0" style={{ justifyContent: "center", alignItems: "center" }}>
             <div className="col-md-4">
@@ -124,6 +120,9 @@ function App() {
             </div>
           </div>
         </div>
+      </section> */}
+       <section className="banner">
+        <a href="https://www.sonyliv.com/sports/volleyball-rupay-prime-volleyball-league-1700001385"><img src="banner.jpg" alt="" style={{width:"100%"}}></img></a>
       </section>
            <section className="intro" id="about">
    
@@ -143,7 +142,7 @@ function App() {
   </div>
 </div>
       </section>
-      <section className="ad">
+      {/* <section className="ad">
         <div className="card border-light ad1 mw">
           <div className="row g-0" style={{ justifyContent: "center", alignItems: "center" }}>
             <div className="col-md-4">
@@ -173,10 +172,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
-      <section className="banner">
-        <img src="banner.jpg" alt="" style={{width:"100%"}}></img>
-      </section>
+      </section> */}
       <section id="team" className="team d-flex flex-column justify-contents-center align-items-center "style={{height:"fit-content"}}>
         <div className="d-flex flex-column  align-items-center pad2">
           <h1 className="title2" >SQUAD</h1>
@@ -531,7 +527,7 @@ function App() {
       </section>
       <section id="press" className="press" style={{backgroundColor:"darkslateblue"}}>
       <div className="d-flex flex-column  align-items-center pad2">
-          <h1 className="title2" style={{color:"bisque"}} >Press</h1>
+          <h1 className="title2" style={{color:"bisque"}} >PRESS</h1>
           <div className="d-flex ">
           <div className="card-group gridlay">
           <div class="card anim rounded" style={{width:"18rem"}}>
@@ -564,7 +560,7 @@ function App() {
             <h1 className="title5 mb-5">SPONSORS</h1>
            </div>
            <div className="d-flex flex-column justify-contents-center align-items-center pt-3">
-            <h1 className="title4" style={{fontSize:"2.5vw"}}>TITLE SPONSOR</h1>
+            <h1 className="title4" style={{fontSize:"3.5vw"}}>TITLE SPONSOR</h1>
             <div className="card-group">
   <div className="d-flex flex-column flex-sm-row flex-lg-row gap-5">
   <div className="card2">
@@ -574,7 +570,7 @@ function App() {
            </div>
            </div>
            <div className="d-flex flex-column justify-contents-center align-items-center mb-3">
-            <h1 className="title4 center" style={{fontSize:"2.5vw"}}>ASSOCIATE SPONSORS</h1>
+            <h1 className="title4 center" style={{fontSize:"3.5vw"}}>ASSOCIATE SPONSORS</h1>
             <div className="card-group">
   <div className="d-flex flex-column flex-sm-row flex-lg-row gap-5">
   <div className="card2">
@@ -589,7 +585,7 @@ function App() {
       </section>
       <section id="contact" className="contact bg5">
         <div className="cont center cont1 mx-5">
-          <h1 className="signup title5">CONTACT</h1>
+          <h1 className="signup title5" style={{fontWeight:"500"}}>CONTACT</h1>
           <div className="justify-content-center  v">
           <div className="card margincont bg7 " style={{width: "18rem",opacity:"1"}}>
   <img src="imgabout.png" className="card-img-top" alt="..."/>
@@ -639,3 +635,20 @@ function App() {
 
 export default App;
 
+// // When the user scrolls the page, execute myFunction 
+// window.onscroll = function() {myFunction()};
+
+// // Get the navbar
+// var navbar = document.getElementById("navbar");
+
+// // Get the offset position of the navbar
+// var sticky = navbar.offsetTop;
+
+// // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// function myFunction() {
+//   if (window.scrollY >= sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
