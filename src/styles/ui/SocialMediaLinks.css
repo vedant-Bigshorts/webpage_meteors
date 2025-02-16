@@ -1,0 +1,47 @@
+/* Social Media Links Responsive Styling */
+.hor11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 991px) {
+    .hor11 {
+      gap: 1rem;
+    }
+  
+    .hor11 a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .hor11 a img {
+      height: 4vw !important; /* More balanced icon size */
+      max-height: 100px;
+      object-fit: contain;
+    }
+  
+    /* When the hamburger menu is open */
+    .menu.open .hor11 a img {
+      height: 5vw !important; /* Slightly larger icons */
+      max-height: 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hor11 a img {
+      height: 6vw !important; /* Smooth transition for tablets */
+      max-height: 90px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hor11 a img {
+      height: 8vw !important; /* Gradual increase instead of a sudden jump */
+      max-height: 80px;
+    }
+  }
+  
