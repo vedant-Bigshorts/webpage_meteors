@@ -1,0 +1,124 @@
+/* PressSection.css - Responsive Grid Layout */
+.press {
+    background-color: darkslateblue;
+    width: 100%;
+    padding: 2rem 0;
+  }
+  
+  .pad2 {
+    padding-top: 1.5rem;
+  }
+  
+  .title2 {
+    font-size: 3rem;
+    font-weight: 1000;
+    color: bisque;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .gridlay {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Default to 2 columns */
+    gap: 120px;
+    padding: 15px;
+    justify-content: center; /* Center the entire grid */
+    justify-items: center; /* Center items within grid cells */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Ensure all grid items are centered */
+  .gridlay > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .anim {
+    transition: 700ms ease-in-out;
+  }
+  
+  .anim:hover {
+    transform: scale(1.05);
+  }
+  
+  .card {
+    border: none;
+    text-align: center;
+    border-radius: 0;
+    width: 18rem;
+    margin: 0 auto; /* Additional centering */
+  }
+  
+  /* Responsive Adjustments */
+  @media only screen and (min-width: 1200px) {
+    .gridlay {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for large devices */
+      gap: 120px;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .gridlay {
+      gap: 70px;
+      padding: 5px;
+    }
+    
+    .title2 {
+      font-size: 2.8rem;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .gridlay {
+      gap: 60px;
+    }
+    
+    .title2 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .pad2 {
+      padding: 1rem;
+    }
+    
+    .title2 {
+      font-size: 2.2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .gridlay {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for small devices */
+      gap: 30px;
+    }
+    
+    .card {
+      width: 90%; /* Make cards slightly smaller than full width */
+    }
+    
+    .title2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    .pad2 {
+      padding: 0.5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .gridlay {
+      gap: 20px;
+    }
+    
+    .title2 {
+      font-size: 1.8rem;
+    }
+  }

@@ -1,0 +1,125 @@
+/* Contact Section Specific Styles */
+a {
+    text-decoration: none;
+}
+
+.contact {
+    color: white;
+    background-color: #1e1c1c;
+    min-height: 100vh;
+}
+
+.cont {
+    text-align: center;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup {
+    padding-top: 0;
+}
+
+.title5 {
+    letter-spacing: 20px;
+    color: white;
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+.v {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.margincont {
+    margin: 70px;
+    width: 18rem;
+    opacity: 1;
+}
+
+.bg7 {
+    background-color: transparent;
+}
+
+/* Remove borders */
+.card {
+    border: none;
+}
+
+.card-img-top {
+    border: none;
+}
+
+.card-header {
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 0.5rem 0;
+}
+
+.list-group {
+    border: none;
+}
+
+.list-group-item {
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding-top: 1.5rem;
+    padding-left: 0;
+}
+
+.card-body {
+    padding: 1rem 0;
+}
+
+.card-text {
+    color: white;
+}
+
+.sochead {
+    padding-top: 0;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.footer h5 {
+    padding-bottom: 0.5rem;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 900px) {
+    .v {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .margincont {
+        margin: 20px 0;
+    }
+
+    .title5 {
+        font-size: 7vw;
+        letter-spacing: 10px;
+    }
+}
