@@ -1,0 +1,27 @@
+/* HomeSection.css */
+.home-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto; /* Let height be determined by content */
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+  
+  .team-image {
+    width: 100%;
+    display: block;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .image-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+  }

@@ -1,0 +1,168 @@
+/* TeamSection.css - Responsive Grid Layout */
+.team {
+    background-color: midnightblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title2 {
+    font-size: 3rem;
+    font-weight: 1000;
+    color: bisque;
+    letter-spacing: 7px;
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  
+  .gridlay {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Default to 2 columns */
+    gap: 120px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+  }
+  
+  .anim {
+    transition: 700ms ease-in-out;
+  }
+  
+  .anim:hover {
+    transform: scale(1.05);
+  }
+  
+  .text-bg {
+    background-color: darkslateblue;
+  }
+  
+  .card {
+    border: none;
+    text-align: center;
+    border-radius: 0;
+    width: 18rem;
+    margin: 0 auto;
+  }
+  
+  .card-body {
+    color: bisque;
+  }
+  
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .pad2 {
+    padding-top: 1.5rem;
+  }
+  
+  /* Responsive Adjustments */
+  @media screen and (min-width: 1200px) {
+    .gridlay {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for large screens */
+      gap: 120px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .gridlay {
+      gap: 80px;
+    }
+    
+    .card {
+      width: 16rem;
+    }
+    
+    .title2 {
+      font-size: 2.8rem;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .gridlay {
+      gap: 60px;
+    }
+    
+    .card {
+      width: 14rem;
+    }
+    
+    .title2 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .gridlay {
+      gap: 40px;
+    }
+    
+    .card {
+      width: 12rem;
+    }
+    
+    .title2 {
+      font-size: 2.2rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .gridlay {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for small devices */
+      gap: 30px;
+    }
+    
+    .card {
+      width: 10rem;
+    }
+    
+    .title2 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .gridlay {
+      gap: 20px;
+    }
+    
+    .card {
+      width: 9rem;
+    }
+    
+    .title2 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .gridlay {
+      gap: 15px;
+    }
+    
+    .card {
+      width: 8rem;
+    }
+    
+    .title2 {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .gridlay {
+      gap: 10px;
+    }
+    
+    .card {
+      width: 7rem;
+    }
+    
+    .title2 {
+      font-size: 1.4rem;
+    }
+  }
